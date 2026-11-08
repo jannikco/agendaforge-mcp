@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "c1ef9658e272d12e5ae86f931f5789a759a38e658caee5bdd4756fb6df76f12e",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://agendaforge.app/openapi.json"
+  ],
+  "id": "agendaforge-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AgendaForge MCP setup and connection checker",
+  "description": "Generate AgendaForge MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agendaforge",
+  "appName": "AgendaForge",
+  "providerDocs": "https://agendaforge.app/openapi.json",
+  "providerWebsite": "https://agendaforge.app/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://agendaforge.app/docs/api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-agendaforge-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
