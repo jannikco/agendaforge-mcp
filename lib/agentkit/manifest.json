@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-agendaforge",
+      "description": "Connect AI agents to AgendaForge using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-agendaforge/SKILL.md": "2e2c6750a7d5c4aa7d49b4f25c59668552016d84ec289a8d5d8383937c5cde32"
+  }
+}
